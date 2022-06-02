@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.latest-match-con {
+  background-color: #0f172a;
+  padding: 24px;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.latest-match-competing-team-details-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ffffff;
+}
+.competing-team {
+  font-size: 24px;
+  font-weight: bold;
+}
+.date {
+  font-size: 20px;
+  font-weight: bold;
+}
+.text {
+  font-size: 16px;
+}
+.competing-team-logo {
+  height: 140px;
+  width: 100px;
+}
+.competing-team-logo-lg {
+  height: 180px;
+  width: 150px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-con {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .latest-match-competing-team-details-con {
+    border-bottom: none;
+  }
+  .competing-team {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .date {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .competing-team-logo {
+    display: none;
+  }
+  .competing-team-logo-lg {
+    display: block;
+  }
+  .latest-match-results-con {
+    text-align: right;
+  }
+}

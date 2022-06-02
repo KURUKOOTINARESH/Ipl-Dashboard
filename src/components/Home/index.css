@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.home-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-con {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 48px;
+  width: 32px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 64px;
+    width: 48px;
+  }
+}
+.home-title {
+  font-size: 36px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .home-title {
+    font-size: 48px;
+  }
+}
+.dashboard-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-con {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
