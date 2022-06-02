@@ -4,16 +4,9 @@ import './index.css'
 const MatchCard = props => {
   const {details} = props
   const {
-    umpires,
     result,
-    manOfTheMatch,
-    id,
-    date,
-    venue,
     competingTeam,
     competingTeamLogo,
-    firstInnings,
-    secondInnings,
     matchStatus,
   } = details
   const resultClassName = matchStatus === 'Won' ? 'won' : 'lost'
